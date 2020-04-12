@@ -1,0 +1,133 @@
+<html>
+<head>
+  <title>
+    Book your car
+  </title>
+  <script>
+  function myfun()
+  {
+    alert("successesfully submit!");
+  }
+  </script>
+  <link rel="stylesheet" href="style.css" >
+  <style>
+  .app
+  {
+    position: relative;
+  width:400px;
+  height:500px;
+  box-shadow: 5px 5px 5px black;
+  }
+
+  .form2
+  {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    float: left;
+    left:10px;
+  }
+  .form2 input
+  {
+    display: inline-block;
+    margin:10px;
+    padding: -10px;
+  width: 300px;
+  height: 50px;
+  border-radius: 0px;
+  }
+  .input
+  {
+    width: 300px;
+    height: 50px;
+    background-color: orange;
+    color: black;
+      border-radius: 0px;
+  }
+.info
+  {
+    width: 1000px;
+    height: 500px;
+    top:600px;
+    position: absolute;
+    left:430px;
+
+  }
+  .book
+  {
+    position: relative;
+    left:25%;
+    width: 35%;
+
+    height: 500px;
+
+
+  }
+  .book form
+  {
+    position: relative;
+    width: 70%;
+    height:450px;
+    background-color:white;
+
+  }
+.book form  tr,td
+  {
+    padding: 10px;
+    color:black;
+  }
+.book form  input
+  {
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+
+  }
+  .submit
+  {
+    width:300px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: orange;
+
+  }
+
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <p class="logo"><img src="logo.png" width="140" height="50"></p>
+    <form action="" method="post">
+      <input  type="search" placeholder="search here..."> <button type="submit" >search</button>
+    </form>
+    <ul>
+     <a href="home.html"><li>home</li></a>
+       <a href="services.html"><li>services</li></a>
+        <a href="car.html"><li>Car</li></a>
+        <a href="contact.html"><li>Contact</a><li></a>
+    </ul>
+  </div>
+     <div class="imgdiv"><img src="slide3.png" style="position: auto; width:100%;z-index:-11; height:500px;"></div>
+     <div class="book">
+       <form onsubmit="myfun()">
+         <table>
+           <tr>
+             <td><input type="text" required placeholder="Full name"></td>
+
+                 <td><input required type="text" placeholder="email"></td>
+                 </tr>
+                 <tr><td><input type="text" placeholder="website"></td>
+
+                     <td><input type="text"  placeholder="subject"> </td>
+                     </tr>
+                     <tr><td>
+                       <textarea placeholder="messages" rows="5" cols="50"></textarea></td>
+                     </tr>
+                       <tr>
+                       <td>  <input class="submit"  type="submit" value="submit"></td>
+                       </tr>
+         </table>
+       </form>
+     </div>
+</body>
+  </htm>

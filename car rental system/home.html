@@ -1,0 +1,111 @@
+<html>
+<head>
+  <title>Book your car</title>
+
+    <link rel="stylesheet" href="style.css" >
+
+    <script>
+    function myfun()
+    {
+      alert("car is not found !");
+    }
+    </script>
+  <style>
+  body{
+    background-image: url("bc.jpg");
+    background-size:100% 100vh;
+    background-color:lightgrey;
+    background-repeat: no-repeat;
+  }
+  .book
+  {
+    position: relative;
+    float:left;
+    width: 35%;
+    height: 500px;
+
+
+  }
+  .book form
+  {
+    position: relative;
+    width: 70%;
+    height:450px;
+    background-color:white;
+
+  }
+.book form  tr,td
+  {
+    padding: 10px;
+    color:black;
+  }
+.book form  input
+  {
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+
+  }
+  .submit
+  {
+    width:300px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: orange;
+
+  }
+  .content
+  {
+    position: relative;
+    float: right;
+
+  }
+  h1,h3{
+    color:white;
+    opacity:1;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <p class="logo"><img src="logo.png" width="140" height="50"></p>
+    <form action="" method="post">
+      <input  type="search" placeholder="search here..." style="border-radius:0px;"> <button type="submit"style="border-radius:0px;" >search</button>
+    </form>
+    <ul>
+     <a href="home.html"><li>home</li></a>
+       <a href="services.html"><li>services</li></a>
+        <a href="car.html"><li>car</li></a>
+        <a href="contact.html"><li>contact</a><li></a>
+    </ul>
+  </div>
+  <div class="book">
+    <form onsubmit="myfun()">
+      <table>
+        <tr>
+          <td>Select Location<br> <input type="text" required placeholder="Select Location"></td>
+          </tr>
+            <tr>
+              <td> Pick-up-date<br><input required type="date" placeholder="Pick-up-date"></td>
+              </tr>
+              <tr><td>Return-date<br><input type="date" placeholder="Return-date"></td>
+                </tr>
+                <tr>
+                  <td> select car<br><input type="text"  placeholder="select car"> </td>
+                  </tr>
+                    <tr>
+                    <td>  <input class="submit"  type="submit" value="Car Booking"></td>
+                    </tr>
+      </table>
+    </form>
+  </div>
+  <div class="content">
+    <h1>WELCOME TO<BR>BOOK YOUR CAR
+    </h1>
+    <h3>We saves your time both while purchasing,<br>
+   the check-in and during the travel
+    </h3>
+  </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body
+{
+  margin: 0px;
+  padding: 0px;
+}
+.menu
+{
+  position:relative;
+  width: 100%;
+  height:80px;
+  background-color:none;
+}
+ul
+{
+  float:right;
+  list-style: none;
+  display:inline-flex;
+  text-transform: uppercase;
+  margin: -50px;
+}
+li
+{
+  padding:30px;
+
+
+}
+ul a
+{  position: relative;
+  color:green;
+}
+form
+{
+  position: relative;
+  left:20%;
+  margin:10px;
+  top:15%;
+}
+input
+{
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+button
+{
+  width:80px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: lightgreen;
+
+}
+.logo
+{
+  position: relative;
+  float: left;
+  left:20px;
+   margin: 10px;
+   background-color: lightgrey;
+   width: 140px;
+   height: 50px;
+   top:2px;
+
+}
+.imgdiv
+{
+  position: relative;
+
+}
